@@ -1,10 +1,10 @@
 # TTGO Lora 915MHz V2.1
 
-![Lilygo Lora V2.1](assets/Lilygo Lora V2.1.png)
+![](assets/Lilygo Lora V2.1.png)
 
 ## pinout 
 
-![img](assets/Main image-6.jpg)
+![Main image-6](./assets/Main%20image-6.jpg)
 
 
 ```
@@ -26,14 +26,11 @@ DATA2:IO4
 
 ## Contoh Koding
 
-### No oled
+### Simple Lora
 
-- senderku [01a-sender main.cpp](src/01a-sender/main.cpp)  
+-  [sender](src/01a-sender/main.cpp)  
+-  [receiver](src/01b-receiver-loop/main.cpp)  
 
-  
-
-   
-- Receiver
 
 ## Referensi:
 
