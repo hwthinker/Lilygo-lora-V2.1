@@ -31,6 +31,12 @@ DATA2:IO4
 -  [sender](src/01a-sender/main.cpp)  
 -  [receiver](src/01b-receiver-loop/main.cpp)  
 
+### Simple Lora dengan OLED
+
+-  [Sender OLED](src/02a-sender-with-oled/main.cpp)  
+-  [Receiver OLED](src/02b-receiver-with-oled/main.cpp)  
+
+
 
 ## Referensi:
 
