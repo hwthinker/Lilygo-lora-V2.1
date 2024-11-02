@@ -1,6 +1,6 @@
 # TTGO Lora 915MHz V2.1
 
-![](assets/Lilygo Lora V2.1.png)
+![Lilygo Lora V2.1](./assets/Lilygo%20Lora%20V2.1.png)
 
 ## pinout 
 
