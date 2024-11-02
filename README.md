@@ -1,4 +1,12 @@
-# pinout 
+# TTGO Lora 915MHz V2.1
+
+![Lilygo Lora V2.1](assets/Lilygo Lora V2.1.png)
+
+## pinout 
+
+![img](assets/Main image-6.jpg)
+
+
 ```
 LED : IO25
 LORA pin : IO18=NSS/SEL
@@ -15,3 +23,18 @@ SD0-MISO-IO2
 DATA2:IO12
 DATA2:IO4
 ```
+
+## Contoh Koding
+
+### No oled
+
+- senderku [01a-sender main.cpp](src/01a-sender/main.cpp)  
+
+  
+
+   
+- Receiver
+
+## Referensi:
+
+- https://github.com/Xinyuan-LilyGO/LilyGo-LoRa-Series/blob/master/examples/RadioLibExamples/SX1276/SX1276_Receive_Interrupt/boards.h?spm=a2g0o.detail.1000023.6.3bb3mQhhmQhhVf&file=boards.h
