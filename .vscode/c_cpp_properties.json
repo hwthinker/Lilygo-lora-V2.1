@@ -10,9 +10,9 @@
             "includePath": [
                 "/home/hwthinker/Documents/PlatformIO/Projects/Lilygo-lora-V2.1/include",
                 "/home/hwthinker/Documents/PlatformIO/Projects/Lilygo-lora-V2.1/src",
-                "/home/hwthinker/Documents/PlatformIO/Projects/Lilygo-lora-V2.1/.pio/libdeps/02b-receiver-with-oled/LoRa/src",
+                "/home/hwthinker/Documents/PlatformIO/Projects/Lilygo-lora-V2.1/.pio/libdeps/02b-receiver-with-oled-RTOS/LoRa/src",
                 "/home/hwthinker/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
-                "/home/hwthinker/Documents/PlatformIO/Projects/Lilygo-lora-V2.1/.pio/libdeps/02b-receiver-with-oled/ESP8266 and ESP32 OLED driver for SSD1306 displays/src",
+                "/home/hwthinker/Documents/PlatformIO/Projects/Lilygo-lora-V2.1/.pio/libdeps/02b-receiver-with-oled-RTOS/ESP8266 and ESP32 OLED driver for SSD1306 displays/src",
                 "/home/hwthinker/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
                 "/home/hwthinker/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include",
                 "/home/hwthinker/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include",
@@ -248,9 +248,9 @@
                 "path": [
                     "/home/hwthinker/Documents/PlatformIO/Projects/Lilygo-lora-V2.1/include",
                     "/home/hwthinker/Documents/PlatformIO/Projects/Lilygo-lora-V2.1/src",
-                    "/home/hwthinker/Documents/PlatformIO/Projects/Lilygo-lora-V2.1/.pio/libdeps/02b-receiver-with-oled/LoRa/src",
+                    "/home/hwthinker/Documents/PlatformIO/Projects/Lilygo-lora-V2.1/.pio/libdeps/02b-receiver-with-oled-RTOS/LoRa/src",
                     "/home/hwthinker/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src",
-                    "/home/hwthinker/Documents/PlatformIO/Projects/Lilygo-lora-V2.1/.pio/libdeps/02b-receiver-with-oled/ESP8266 and ESP32 OLED driver for SSD1306 displays/src",
+                    "/home/hwthinker/Documents/PlatformIO/Projects/Lilygo-lora-V2.1/.pio/libdeps/02b-receiver-with-oled-RTOS/ESP8266 and ESP32 OLED driver for SSD1306 displays/src",
                     "/home/hwthinker/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
                     "/home/hwthinker/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include",
                     "/home/hwthinker/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include",

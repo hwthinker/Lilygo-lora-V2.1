@@ -12,8 +12,8 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug",
-            "executable": "/home/hwthinker/Documents/PlatformIO/Projects/Lilygo-lora-V2.1/.pio/build/02b-receiver-with-oled/firmware.elf",
-            "projectEnvName": "02b-receiver-with-oled",
+            "executable": "/home/hwthinker/Documents/PlatformIO/Projects/Lilygo-lora-V2.1/.pio/build/02b-receiver-with-oled-RTOS/firmware.elf",
+            "projectEnvName": "02b-receiver-with-oled-RTOS",
             "toolchainBinDir": "/home/hwthinker/.platformio/packages/toolchain-xtensa-esp32/bin",
             "internalConsoleOptions": "openOnSessionStart",
             "preLaunchTask": {
@@ -25,8 +25,8 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (skip Pre-Debug)",
-            "executable": "/home/hwthinker/Documents/PlatformIO/Projects/Lilygo-lora-V2.1/.pio/build/02b-receiver-with-oled/firmware.elf",
-            "projectEnvName": "02b-receiver-with-oled",
+            "executable": "/home/hwthinker/Documents/PlatformIO/Projects/Lilygo-lora-V2.1/.pio/build/02b-receiver-with-oled-RTOS/firmware.elf",
+            "projectEnvName": "02b-receiver-with-oled-RTOS",
             "toolchainBinDir": "/home/hwthinker/.platformio/packages/toolchain-xtensa-esp32/bin",
             "internalConsoleOptions": "openOnSessionStart"
         },
@@ -34,8 +34,8 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (without uploading)",
-            "executable": "/home/hwthinker/Documents/PlatformIO/Projects/Lilygo-lora-V2.1/.pio/build/02b-receiver-with-oled/firmware.elf",
-            "projectEnvName": "02b-receiver-with-oled",
+            "executable": "/home/hwthinker/Documents/PlatformIO/Projects/Lilygo-lora-V2.1/.pio/build/02b-receiver-with-oled-RTOS/firmware.elf",
+            "projectEnvName": "02b-receiver-with-oled-RTOS",
             "toolchainBinDir": "/home/hwthinker/.platformio/packages/toolchain-xtensa-esp32/bin",
             "internalConsoleOptions": "openOnSessionStart",
             "loadMode": "manual"

@@ -71,7 +71,7 @@ void setup() {
   display.setFont(ArialMT_Plain_24);
   display.drawString(0, 0, "HwThinker");
   display.display();
-  delay(1000);
+  delay(100);
   display.clear();
 }
 
