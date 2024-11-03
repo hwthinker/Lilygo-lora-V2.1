@@ -36,6 +36,10 @@ DATA2:IO4
 -  [Sender OLED](src/02a-sender-with-oled/main.cpp)  
 -  [Receiver OLED](src/02b-receiver-with-oled/main.cpp)  
 
+### Simple Lora dengan OLED RTOS-lebih stabil
+-  [Sender OLED](src/02a-sender-with-oled/main.cpp)  
+-  [Receiver OLED RTOS](src/02b-receiver-with-oled-RTOS/main.cpp)  
+
 
 
 ## Referensi:
