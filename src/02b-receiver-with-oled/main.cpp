@@ -87,6 +87,8 @@ void loop() {
   display.setFont(ArialMT_Plain_10);
   display.drawString(0, 45, "RSSI : " + String(LoRa.packetRssi()));
   display.display();
+    // Memberikan "breather" pada CPU dan Mencegah watchdog timer timeout
+  delay(100); 
 }
 
 void onReceive(int packetSize) {

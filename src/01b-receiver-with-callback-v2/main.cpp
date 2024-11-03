@@ -51,7 +51,7 @@ void setup() {
 
 void loop() {
 // Memberikan "breather" pada CPU dan Mencegah watchdog timer timeout
-  delay(1);
+  delay(10);
 }
 
 void onReceive(int packetSize) {
