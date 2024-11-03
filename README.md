@@ -40,6 +40,16 @@ DATA2:IO4
 -  [Sender OLED](src/02a-sender-with-oled/main.cpp)  
 -  [Receiver OLED RTOS](src/02b-receiver-with-oled-RTOS/main.cpp)  
 
+### Penjelasan Modifikasi:
+
+1. **Task `displayTask`**:
+   - Kode display diisolasi ke dalam task `displayTask`, yang berjalan di Core 0. Dengan ini, Core 1 (yang menangani operasi LoRa) tidak terbebani oleh proses display.
+   - `vTaskDelay(100 / portTICK_PERIOD_MS)` memberikan jeda 100 ms di antara tiap pembaruan display.
+2. **Penggunaan `vTaskDelay(1)` dalam `loop()`**:
+   - Memastikan bahwa `loop()` utama memberikan waktu ke task lain, membantu menghindari masalah dengan watchdog timer.
+3. **Variabel `dataUpdated`**:
+   - Variabel ini digunakan sebagai flag untuk menunjukkan bahwa data baru telah diterima dan perlu di-update ke display.
+
 
 
 ## Referensi:
